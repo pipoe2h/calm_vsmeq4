@@ -1,53 +1,58 @@
-.. title:: Nutanix Calm Runbooks and Endpoints
+.. title:: Nutanix Calm Virtual Summit EMEA Q4'20
 
 .. toctree::
-  :maxdepth: 3
-  :caption: Labs
-  :name: _labs
-  :hidden:
+   :maxdepth: 2
+   :caption: Event Info
+   :name: _info
+   :hidden:
 
-  endpoints/endpoints
-  runbooks/runbooks
-  optionallabs/blueprint
+   info/clusterinfoprod
+   info/clusteraccess
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Calm Runbooks
+   :name: _runbooks
+   :hidden:
 
-.. _getting_started:
+   calm_runbooks/overview/overview
+   calm_runbooks/endpoints/endpoints
+   calm_runbooks/runbooks/runbooks
+   calm_runbooks/optionallabs/blueprint
 
----------------
-Getting Started
----------------
+.. toctree::
+   :maxdepth: 2
+   :caption: Calm DSL
+   :name: _dsl
+   :hidden:
 
-Welcome to the handson Workshop for Runbooks in CALM. This Workshop will cover the creation of an Endpoint for Linux and Windows VMs and a Runbook to execute specific tasks on those Endpoints. You will have to connect to a HPOC environment, the details for the HPOC are futher down. If any questions come up as part of the Workshop don't hesitate to ask.
+   calm_dsl/overview/overview
+   calm_dsl/task1/prepare_env
+   calm_dsl/task2/basic_blueprint
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Calm Cloud SDKs
+   :name: _sdks
+   :hidden:
 
-Agenda
-++++++
+   calm_cloud_sdk/calm_cloud_sdk
 
-1. Create Endpoints for Linux VMs
-2. Create RunBooks for log cleaning
-3. Using Endpoints in Blueprints and creating Endpoints via API
-
-
-Initial Setup
-+++++++++++++
-
-- Take note of the *Passwords* being used.
-- Log into your virtual desktops (connection info below)
-
-
-Environment Details
-+++++++++++++++++++
-
-Nutanix Workshops are intended to be run in the Nutanix Hosted POC environment. Your cluster will be provisioned with all necessary images, networks, and VMs required to complete the exercises. You need to be connected to the VPN to access the Hosted POC environments.
 
 .. raw:: html
 
-   <iframe width="800" height="800" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1oWRSgXdXJLDufiXRk0xShF83_iDxApZGwq7lLasAUfc/edit?userstoinvite=giridhar.shankar@nutanix.com&ts=5ed5f8bf&actionButton=1#gid=0">
+  <br><center><img src="https://uploads-us-west-2.insided.com/nutanix-us/attachment/3b0091f4-5bb4-4c9e-b99a-a73a0ba3c221_thumb.png" alt="Welcome to 2nd Nutanix Calm Summit EMEA 2020"></center><br>
+
+**Welcome!** This is our second Calm SME Summit EMEA. This one day session will help you on knowing more about what is coming new in Calm 3.0.0, and a set of hands-on labs to get you familiar with ServiceNow, Runbooks, DSL and SDKs.
+
+.. raw:: html
+
+Labs are designed to be completed by each individual, not in groups.
 
 
-Nutanix Version Info
-++++++++++++++++++++
+.. raw:: html
 
-- **CALM Version** - 3.0.0
-- **AOS Version** - 5.16.1.2
-- **PC Version** - 5.17.0.2
+  <strong><font color="red">Before beginning any labs, review the following sections for important information regarding your lab specific lab environment:</font></strong>
+
+- :ref:`clusteraccess` - *VPN configuration for accessing the Nutanix Hosted POC network*
+- :ref:`clusterinfoprod` - *Your individual cluster assignment and details on how your cluster was staged*
