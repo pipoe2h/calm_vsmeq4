@@ -45,6 +45,22 @@
 
 **Welcome!** This is our second Calm SME Summit EMEA. This one day session will help you on knowing more about what is coming new in Calm 3.0.0, and a set of hands-on labs to get you familiar with ServiceNow, Runbooks, DSL and SDKs.
 
+Agenda
+++++++
+- Intro to the Calm SME vSummit and Business Update
+- What is New in 3.0
+- Break
+- Calm Roadmap
+- Calm Runbooks
+- Lunch Break
+- Runbook Lab
+- ServiceNow Integration
+- ServiceNow Lab
+- Calm DSL
+- DSL Lab
+- Public Cloud SDKs
+- SDK Lab
+
 .. raw:: html
 
 Labs are designed to be completed by each individual, not in groups.
