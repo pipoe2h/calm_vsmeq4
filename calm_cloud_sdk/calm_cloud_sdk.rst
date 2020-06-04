@@ -259,12 +259,12 @@ The database instance creation is delegated to the managed database service by A
      
        .. code-block:: python
 
-         AWS_ACCESS_KEY = '@@{AWS_ACCESS_KEY}@@'
-         AWS_SECRET_KEY = '@@{AWS_SECRET_KEY}@@'
-         AWS_REGION = '@@{AWS_REGION}@@'
-         AWS_RDS_INSTANCE = '@@{calm_application_uuid}@@'
-         MYSQL_USERNAME = '@@{Cred_DB.username}@@'
-         MYSQL_PASSWORD = '@@{Cred_DB.secret}@@'
+        AWS_ACCESS_KEY = '@@{AWS_ACCESS_KEY}@@'
+        AWS_SECRET_KEY = '@@{AWS_SECRET_KEY}@@'
+        AWS_REGION = '@@{AWS_REGION}@@'
+        AWS_RDS_INSTANCE = '@@{calm_application_uuid}@@'
+        MYSQL_USERNAME = '@@{Cred_DB.username}@@'
+        MYSQL_PASSWORD = '@@{Cred_DB.secret}@@'
 
         import boto3
         from boto3 import setup_default_session
