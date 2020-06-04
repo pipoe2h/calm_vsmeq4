@@ -475,8 +475,9 @@ Using the same blueprint you just created is going to be used for deploying the 
    - Leave the remaining default values
    - Click **Save** (Ignore any error)
 
-#. In Azure Database for MySQL the allowed connection from WordPress to MySQL must be created. For this you are going to create the task in the **package install**. Click the Apache service and use the following settings:
+#. In Azure Database for MySQL the allowed connection from WordPress to MySQL must be created. For this you are going to create the task in the **package install**.
 
+   - Make sure you click the **Apache** service and use the following settings:
    - Click **Package**
    - Click **Configure install**
    - In the workspace, click the **+ Task**
