@@ -660,7 +660,7 @@ Using the same blueprint you just created is going to be used for deploying the 
        .. figure:: images/sdk_21.png
 
 
-#. Delete AWS RDS MySQL with AWS SDK.
+#. Delete Azure Database for MySQL with Azure SDK.
 
    - On the left pane, expand **Service**, **MySQL**, **VM**, **Post-delete**
    - On the center of the screen, click **+ Task**
