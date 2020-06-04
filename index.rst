@@ -22,6 +22,14 @@
 
 .. toctree::
    :maxdepth: 2
+   :caption: Calm + ServiceNow
+   :name: _snow
+   :hidden:
+
+   calm_snow/index
+
+.. toctree::
+   :maxdepth: 2
    :caption: Calm DSL
    :name: _dsl
    :hidden:
