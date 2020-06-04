@@ -19,7 +19,7 @@ Launch GlobalProtect and configure **gp.nutanix.com** as the **Portal** address.
 
 Connect using your **Okta** credentials.
 
-Using the **Gateway** dropdown, select a Split Tunnel (ST) gateway to ensure only network traffic targeting the Hosted POC environment is sent over the VPN (Otherwise **Best Available** will default to a full VPN tunnel). Regardless if using a **PHX** or **RTP** cluster, **Phoenix (ST)** and **Reno (ST)** are recommended. Do not use the **Durham (ST)** option.
+Using the **Gateway** dropdown, select a Split Tunnel (ST) gateway to ensure only network traffic targeting the Hosted POC environment is sent over the VPN (Otherwise **Best Available** will default to a full VPN tunnel). Regardless if using a **PHX** or **RTP** cluster, **Hoofddorp (ST)** is recommended.
 
 .. figure:: images/gp.png
 
