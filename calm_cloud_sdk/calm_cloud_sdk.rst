@@ -720,7 +720,7 @@ Make sure you are in the Azure Application Profile before start adding the follo
 +----------------------------+-----------------+---------------------------+---------------+
 | **AZURE_TENANT_ID**        | Yes             | Provided by instructor    | Yes           |
 +----------------------------+-----------------+---------------------------+---------------+
-| **AZ_SECRET**              | Yes             | Provided by instructor    | Yes           |
+| **AZURE_SECRET**           | Yes             | Provided by instructor    | Yes           |
 +----------------------------+-----------------+---------------------------+---------------+
 | **AZURE_RESOURCE_GROUP**   | No              | UK                        | No            |
 +----------------------------+-----------------+---------------------------+---------------+
