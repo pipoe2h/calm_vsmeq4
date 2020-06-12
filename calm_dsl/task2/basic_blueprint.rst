@@ -91,7 +91,7 @@ Assume all the services VM will have the same VM specs (OS, memory, disk and nic
     vCPUs = 2
     cores_per_vCPU = 1
     disks = [AhvVmDisk.Disk.Scsi.cloneFromVMDiskPackage(CentosPackage, bootable=True)]
-    nics = [AhvVmNic.DirectNic.ingress("RX-Automation")]
+    nics = [AhvVmNic.DirectNic.ingress("RX-Automation")] # Change RX-Automation with your network
     guest_customization = AhvVmGC.CloudInit(
       config={
           'password': CENTOS_PASSWD,
