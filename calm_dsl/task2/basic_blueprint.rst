@@ -179,7 +179,7 @@ This is the final step, deploy the blueprint to Calm using calm-dsl cli
   :name: deploy-blueprint
   :caption: Deploy blueprint
 
-  calm create bp --filename lamp_blueprint.py --name LAMP-CalmDSL
+  calm create bp -f lamp_blueprint.py --name LAMP-CalmDSL
 
 .. note::
   You can refer to the full python script on this repo:
